@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px 0px rgba(184, 184, 184, 0.5);
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.avatar {
+  margin: 0 10px;
+}
+.online {
+  background: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.offline {
+  background: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
